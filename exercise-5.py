@@ -10,7 +10,8 @@ home_town = {
 }
 
 #iterate
-for key, val
+for key, val in home_town.items():
+    print(f"{key} = {val}")
 
 
-#print
+# items() method returns a view object that contains the key-value pairs of the dictionary as  tuples
